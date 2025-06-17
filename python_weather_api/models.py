@@ -1,7 +1,8 @@
 # Define the Weather data model
 class Weather:
     def __init__(self, location, temperature, condition):
-        # Initialize the Weather object with location, temperature, and condition
+        # Initialize the Weather object with location, temperature,
+        # and condition
         self.location = location
         self.temperature = temperature
         self.condition = condition
