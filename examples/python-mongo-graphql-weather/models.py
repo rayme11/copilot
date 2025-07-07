@@ -1,5 +1,6 @@
 from pymongo import MongoClient
 
+
 class WeatherModel:
     def __init__(self, uri="mongodb://localhost:27017/", db_name="weatherdb"):
         self.client = MongoClient(uri)
